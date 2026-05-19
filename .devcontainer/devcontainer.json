@@ -1,0 +1,4 @@
+{
+    "name": "Mon Codespace Automatique",
+    "postStartCommand": "chmod +x ./keep_alive.sh && nohup ./keep_alive.sh > /dev/null 2>&1 &"
+}
